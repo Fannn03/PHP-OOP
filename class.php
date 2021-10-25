@@ -1,28 +1,51 @@
 <?php 
 
 
-class fruit{
+class Fruit{
+
+    public $nama = 'nama buah';
+    public $banyak = 'banyak buah';
+    public $harga = 'harga buah';
+
+    public function set($data){
+        return $this->nama = $data;
+    }
+    public function get(){
+        $data = $this->nama;
+        return printf('buah yang dibeli oleh fatur : ' . $data);
+    }
     
-    public $name;
-    public $color;
-
-    function set_name($name){
-        $this->name = $name;
-    }
-
-    function get_name(){
-        return $this->name;
-    }
 }
 
-$apple = new fruit();
-$banana = new fruit();
+$andrian = new Fruit();
+$andrian->nama = 'pisang';
+$andrian->banyak = 5;
+$andrian->harga = "50.000";
 
-$apple->set_name('apple');
-$banana->set_name('banana');
+var_dump($andrian);
 
-echo $apple->get_name();
+$fatur = new Fruit();
+$fatur->set('salak');
+$fatur->get();
+
 echo "\n";
-echo $banana->get_name();
+
+class Komik{
+
+    public $nama, $penulis, $penerbit;
+
+    public function say($data, $data2, $data3){
+        $nama = $this->nama = $data;
+        $penulis = $this->penulis = $data2;
+        $penerbit = $this->penerbit = $data3;
+
+        return print_r('nama komik : ' . $nama . '||' . 'penulis : ' . $penulis . '||' . 'penebit :' . $penerbit );
+    }
+
+}
+
+$client = new Komik();
+
+$client->say('naruto', 'masashi', 'shounen');
 
 ?>
