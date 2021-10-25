@@ -5,4 +5,4 @@ dibuat hanya untuk sebagai dokumentasi belajar oop dasar php.
 
 ## Materi
 
-- [class property dan object method]
+- class property dan object method
