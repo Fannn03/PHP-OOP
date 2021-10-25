@@ -5,4 +5,5 @@ dibuat hanya untuk sebagai dokumentasi belajar oop dasar php.
 
 ## Materi
 
-- class property dan object method
+- Class property dan object method
+- Constuctor
