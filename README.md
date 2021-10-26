@@ -8,3 +8,4 @@ dibuat hanya untuk sebagai dokumentasi belajar oop dasar php.
 - Class property dan object method
 - Constuctor
 - Object-type
+- Inheritance
