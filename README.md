@@ -9,3 +9,4 @@ dibuat hanya untuk sebagai dokumentasi belajar oop dasar php.
 - Constuctor
 - Object-type
 - Inheritance
+- Visibility
